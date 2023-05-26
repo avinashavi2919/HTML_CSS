@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClosingButton</title>
+    <style>
+        * {
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  border: 1px solid #ddd;
+  margin-top: -1px; 
+  background-color: #8be8ec;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  position: relative;
+}
+ul li:hover {
+  background-color: #eee;
+}
+.close {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  padding: 12px 16px;
+  transform: translate(0%, -50%);
+}
+.close:hover {
+    background: #bbb;
+}
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Avinash</li>
+        <li>Vikas<span class="close">x</span></li>
+      
+        <li>Pavan<span class="close">x</span></li>
+        <li>Sivakumar<span class="close">x</span></li>
+      
+        <li>Virat kohli<span class="close">x</span></li>
+        <li>Pawan kalyan<span class="close">x</span></li>
+        <li>Ram charan</li>
+      </ul>
+</body>
+</html>

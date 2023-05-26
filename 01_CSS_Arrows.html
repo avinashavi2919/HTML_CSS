@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Arrows</title>
+    <style>
+       .arrow-button {
+    background-color: transparent;
+
+    height: 12px;
+    width: 12px;
+
+}
+
+.arrow-button--t {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    transform: translateY(40%) rotate(45deg);
+}
+
+.arrow-button--r {
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    transform: translateX(-40%) rotate(45deg);
+    align-items: center;
+}
+
+.arrow-button--b {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transform: translateY(-40%) rotate(45deg);
+    
+}
+
+.arrow-button--l {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    transform: translateX(40%) rotate(45deg);
+}
+    </style>
+</head>
+<body>
+    <button class="arrow-buttons">
+     
+        <div class="arrow-button arrow-button--t"></div>
+    
+    </button>
+    
+    <button class="arrow-buttons">
+
+        <div class="arrow-button arrow-button--r"></div>
+       
+    </button>
+    
+    
+    <button class="arrow-buttons">
+        
+        <div class="arrow-button arrow-button--b"></div>
+    
+    
+    </button>
+
+    <button class="arrow-buttons">
+
+        <div class="arrow-button arrow-button--l"></div>
+       
+
+    
+        
+    </button>
+</body>
+</html>
